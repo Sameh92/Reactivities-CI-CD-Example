@@ -1,0 +1,26 @@
+# flyctl launch added from client-app\.gitignore
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+client-app\node_modules
+client-app\.pnp
+client-app\**\.pnp.js
+
+# testing
+client-app\coverage
+
+# production
+client-app\build
+
+# misc
+client-app\**\.DS_Store
+client-app\**\.env.local
+client-app\**\.env.development.local
+client-app\**\.env.test.local
+client-app\**\.env.production.local
+
+client-app\**\npm-debug.log*
+client-app\**\yarn-debug.log*
+client-app\**\yarn-error.log*
+
+fly.toml
